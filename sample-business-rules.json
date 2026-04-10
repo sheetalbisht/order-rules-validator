@@ -1,0 +1,26 @@
+[
+  {
+    "ruleId": "RULE_001",
+    "ruleName": "SA Destination Markup",
+    "condition": "destination == SA",
+    "action": "APPLY_MARKUP:5",
+    "priority": 1,
+    "enabled": true
+  },
+  {
+    "ruleId": "RULE_002",
+    "ruleName": "Long Layover Hide",
+    "condition": "layover > 720",
+    "action": "HIDE_FLIGHT",
+    "priority": 2,
+    "enabled": true
+  },
+  {
+    "ruleId": "RULE_003",
+    "ruleName": "AE Destination Markup",
+    "condition": "destination == AE",
+    "action": "APPLY_MARKUP:2",
+    "priority": 1,
+    "enabled": true
+  }
+]

@@ -1,0 +1,11 @@
+Order Number,Status,Rules Applied,Failure Reasons
+ORD001,PASS,RULE_001: SA Destination Markup,N/A
+ORD002,PASS,No matching rule,N/A
+ORD003,PASS,RULE_002: Long Layover Hide,N/A
+ORD004,PASS,No matching rule,N/A
+ORD005,PASS,RULE_001: SA Destination Markup; RULE_002: Long Layover Hide,N/A
+ORD006,PASS,RULE_003: AE Destination Markup,N/A
+ORD007,PASS,No matching rule,N/A
+ORD008,PASS,RULE_001: SA Destination Markup,N/A
+ORD009,PASS,No matching rule,N/A
+ORD010,PASS,RULE_003: AE Destination Markup,N/A
